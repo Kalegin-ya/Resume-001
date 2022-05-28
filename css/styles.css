@@ -1,0 +1,290 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #f5f7fa;
+}
+
+/* main styles */
+main {
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: #ffffff;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	width: 1200px;
+	height: 1319px;
+	margin: 0 auto;
+}
+
+/* about styles */
+
+.about-me {
+	margin: 102px 342px 40px 88px;
+}
+
+/* h2 (job) styles */
+
+h2 {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+/* h1 (name) styles */
+
+h1 {
+	margin-top: 19px;
+	margin-bottom: 24px;
+	margin-right: 58px;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.goal {
+	font-size: 14px;
+	font-weight: 400;
+	color: #595959;
+	line-height: 24px;
+}
+
+/* progects styles */
+
+.my-projects {
+	margin-left: 88px;
+	margin-right: 257px;
+}
+
+/* title for projects (h3) */
+
+.title-projects {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+/* flex for projects */
+
+.flex-projects {
+	display: flex;
+}
+
+ol {
+	font-weight: 700;
+	margin-left: -20px;
+	margin-top: -10px;
+}
+
+/* vertical alignment to list of tech */
+
+.perfom {
+	margin-top: -10px;
+	margin-left: 3.5px;
+}
+
+/*links on projects*/
+
+.links {
+	text-decoration: none;
+	color: #595959;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/* dotted */
+
+.dot-line {
+	background-image: linear-gradient(to right, #595959, transparent 75%);
+	background-position: 0 0.85em;
+	background-repeat: repeat-x;
+	background-size: 6px 1px;
+	color: #595959;
+}
+
+/* project-technology in a list */
+
+.project-technology {
+	font-size: 14px;
+	font-weight: 400;
+	color: #595959;
+}
+
+/* bold property for "[" and "]" */
+
+.bold {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+/* expirience styles */
+
+.my-experience {
+	/* margin-bottom: 16px; */
+	margin-left: 88px;
+	margin-right: 217px;
+}
+
+/* title of experience */
+
+.experience-title {
+	margin-bottom: 12px;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+/* previous jobs */
+
+.jobs {
+	margin-bottom: 11px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.company {
+	color: #fb6d3a;
+}
+
+/* privois work period */
+
+.work-period {
+	margin-bottom: 8px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #a8a8a8;
+}
+
+.black-delimeter {
+	color: black;
+}
+
+/* details about previous experience */
+
+.details-expirience {
+	font-size: 14px;
+	font-weight: 400;
+	color: #595959;
+	margin-left: -20px;
+}
+
+/* move list to left border */
+
+.to-left-border {
+	margin-left: -24px;
+	line-height: 24px;
+}
+
+/* education styles */
+
+.my-education {
+	margin-bottom: 107px;
+	margin-left: 88px;
+	margin-right: 415px;
+}
+
+/* title of education bloc */
+
+.title-education {
+	margin-bottom: 12px;
+	font-size: 22px;
+	font-weight: 700;
+}
+
+/* university education */
+
+.university {
+	margin-bottom: 11px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #fb6d3a;
+}
+
+/* speciality in university */
+
+.speciality {
+	margin-bottom: 12px;
+	font-size: 14px;
+	font-weight: 700;
+	color: black;
+}
+
+/* period of study in university */
+
+.study-period {
+	font-size: 12px;
+	font-weight: 400;
+	color: #a8a8a8;
+}
+
+/* sidebar styles */
+
+aside {
+	background-color: #1e2939;
+	color: #ffffff;
+	padding-top: 40px;
+	width: 370px;
+}
+
+img {
+	width: 370px;
+}
+
+/* contacts styles */
+
+.contacts {
+	margin-top: 51px;
+	margin-left: 40px;
+}
+
+/* Title of contacts section */
+
+.aside-title {
+	font-size: 22;
+	font-weight: 700;
+}
+
+/* communication methods */
+
+.phome-mail-contacts {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+	opacity: 0.5;
+	line-height: 24px;
+	vertical-align: top;
+	color: #ffffff;
+}
+
+.bold-character-contacts {
+	margin-right: 5px;
+	font-style: normal;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	vertical-align: top;
+}
+
+.line-del {
+	text-decoration-style: none;
+}
+
+/* tech skills styles */
+
+.tech-skills {
+	margin-top: 51px;
+	margin-left: 40px;
+}
+
+.skills-list {
+	padding: 0;
+	margin: 18px;
+	color: #fb6d3a;
+	font-weight: 400;
+}
+
+/* soft skills styles */
+
+.soft-skills {
+	margin-top: 43px;
+	margin-left: 40px;
+}
+
+.set-clore-list {
+	color: white;
+}
